@@ -50,6 +50,8 @@ class LoginActivity : AppCompatActivity(), IView {
      }
 
     override fun toRegisterActivity() {
+        ToastUtils.show(this, "去注册")
+
     }
 
     override fun showFailedMessage() {
